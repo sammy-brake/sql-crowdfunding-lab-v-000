@@ -8,7 +8,7 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Roasted Marshmallow Fundraiser", 'charity', 25, "11-2-2018", '12-2-2018');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Spin Doctor Concert", 'music', 100, "7-2-2018", '10-2-2019');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Last Hurrah", 'charity', 100000, "11-2-2018", '12-2-2018');
-
+--
 INSERT INTO users (name, age) VALUES ('Samantha', 32);
 INSERT INTO users (name, age) VALUES ('Anurag', 39);
 INSERT INTO users (name, age) VALUES ('Brette', 36);
@@ -28,5 +28,6 @@ INSERT INTO users (name, age) VALUES ('Ron', 32);
 INSERT INTO users (name, age) VALUES ('Mary', 67);
 INSERT INTO users (name, age) VALUES ('Lindsey', 34);
 INSERT INTO users (name, age) VALUES ('Natalee', 18);
-
-INSERT INTO pledges (amount, user, project) VALUES ()
+INSERT INTO users (name, age) VALUES ('Mary Lane', 74)
+-- --
+-- INSERT INTO pledges (amount, user, project) VALUES ()
